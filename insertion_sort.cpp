@@ -41,7 +41,7 @@ int main(){
     vector<int> sorted = ans.insertion_sort(nums);
     cout << "Sorted vector: ";
     for (int num : sorted) {
-        cout << num << " ";
+        cout << num << "";
     }
     cout << endl;
 }
